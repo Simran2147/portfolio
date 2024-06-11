@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" onclick="location.href='index.html'">Simran Dadhich</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Simran Dadhich</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="projects">
+       
+        <h1 class="title">Projects</h1>
+
+
+        <!-- 1st Row -->
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/projects/cinecircle.png"
+                  alt="cinecircle"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">CineCircle</h2>
+              <div class="text-container">
+                <p>
+                  CineCircle blends content and collaborative filtering with AWS and Facebook sign-in to deliver personalized, 
+                  socially-connected movie recommendations.
+                </p>  
+                <br>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/Simran2147/CineCircle-The-Social-Movie-Network')"
+                >
+                  Github
+                </button>
+                
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/projects/QuantumQube.png"
+                  alt="QuantumQube"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">QuantumQube</h2>
+              <div class="text-container">
+                <p>
+                  QuantumQube leverages advanced machine learning to predict stock prices, enhancing market 
+                  insights with comprehensive data analysis.
+                </p>
+                <br>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/Simran2147/QuantumQube-Stock-Prediction')"
+                >
+                  Github
+                </button>
+                
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/projects/SignLearn.png"
+                  alt="SignLearn"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">SignLearn</h2>
+              <div class="text-container">
+                <p>
+                  SignLearn utilizes LSTM and TensorFlow for real-time sign language
+                  recognition, aiding learning and translation with diverse interface applications.
+                </p>
+                <br>
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/Simran2147?tab=repositories')"
+                >
+                  Github
+                </button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+       
+
+        <!-- 2nd Row -->
+
+        <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/projects/project-1.png"
+                    alt="magicwand"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">Magic Wand</h2>
+                <div class="text-container">
+                  <p>
+                    Magic Wand is a TinyML-based project using Arduino Nano for real-time gesture detection and shape generation, 
+                    enhancing user interaction through immersive visual feedback.
+                  </p>  
+                  <br>
+                </div>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Simran2147?tab=repositories')"
+                  >
+                    Github
+                  </button>
+                  
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/projects/project-1.png"
+                    alt="E-Comm Shopping"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">E-Comm Shopping</h2>
+                <div class="text-container">
+                  <p>
+                    Crafted a dynamic clothing e-commerce site with Django, featuring smooth checkout 
+                    and adaptive pricing for an elevated shopping experience.
+                  </p>
+                  <br>
+                </div>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Simran2147/E-com-Django-Shopping-website')"
+                  >
+                    Github
+                  </button>
+                  
+                </div>
+              </div>
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img
+                    src="./assets/projects/project-1.png"
+                    alt="Search-Pay-Stay"
+                    class="project-img"
+                  />
+                </div>
+                <h2 class="experience-sub-title project-title">SearchPayStay</h2>
+                <div class="text-container">
+                  <p>
+                  </p>
+                  <br>
+                </div>
+                <div class="btn-container">
+                  <button
+                    class="btn btn-color-2 project-btn"
+                    onclick="window.open('https://github.com/Simran2147?tab=repositories')"
+                  >
+                    Github
+                  </button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        
+        
+        
+      </section>
+      
